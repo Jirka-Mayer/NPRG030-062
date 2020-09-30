@@ -28,6 +28,15 @@ Pokud vám něco co říkám nebude jasné, tak se ptejte (a to hned, dokud je t
 **Konzultace**<br>
 Pokud by někdo chtěl něco dovysvětlit nebo se mu nedařilo a chtěl by probrat cokoliv jiného, tak mi napište email a domluvíme se na termínu konzultace.
 
+**ReCodEx**<br>
+Domácí úkoly z obou cvičení budou zadávány a odevzdávány pomocí systému recodex.
+
+Jak rozchodit recodex:
+
+- Jděte na https://recodex.mff.cuni.cz/
+- Přihlašte se (**pozor:** `Přihlásit přes CAS`) a zadejte stejné údaje jako používáte v SISu.
+- V menu vlevo dole je položka `SIS Integrace` a tam se přidejte do skupin `Algoritmizace` a `Programování 1`.
+
 **Řešil jsem KSPčko**<br>
 Pokud jste už zdatnější a myslíte, že by vás cvičení nebavilo, můžete se zapsat na páteční cvičení Martina Mareše pro pokročilé. Ale na cvičení můžete chodit i navíc, ze zvědavosti zatímco budete normálně přihlášeni na mém. Tady je více informací: http://mj.ucw.cz/vyuka/2021/p1x/
 
