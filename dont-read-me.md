@@ -17,12 +17,22 @@ https://ksvi.mff.cuni.cz/~dingle/2019/prog_1/programming_1.html
 
 **Algoritmizace**
 
+> Chtěl bych řešit úlohy typu ADS, kombinatorické hry apod.
+
 - zmínit nahrávání, začít nahrávat
 - tykání
 - organizační věci
     - tenhle repozitář - projdi poznámky
+- ...
+- zadat úkol
+    - TODO: jakej?
 
 **Programování**
 
+> Chtěl bych programovat v pythonu spíš jednodušší věci. Kódit.
+
 - organizační věci
     - tenhle repozitář - projdi poznámky
+- ...
+- zadat úkol
+    - TODO: jakej?

@@ -22,7 +22,7 @@ Test se bude psát na poslední hodině a bude zadán přes recodex (takže ho b
 
 ## Zápočtový program
 
-Zápočtový program je větší kus software, který budete programovat doma během semestru. **Do konce listopadu si vyberete téma a zašlete mi ho ke kontrole.** Na programu pak budete pracovat dokud nebude hotový, včetně uživatelské a programátorské dokumentace. Výsledek práce mi zašlete ke kontrole takovým způsobem, abych mohl program spustit a vyzkoušet. Pokud je to problematické, můžeme se domluvit na osobním předvedení. Zápočtový program má výjimku, že nemusí být v Pythonu - použijte jazyk, který umíte nebo který nejlépe sedí na doménu problému.
+Zápočtový program je větší kus software, který budete programovat doma během semestru. **Do konce listopadu si vyberete téma a zašlete mi ho ke kontrole.** Na programu pak budete pracovat dokud nebude hotový, včetně uživatelské a programátorské dokumentace. Výsledek práce mi zašlete ke kontrole takovým způsobem, abych mohl program spustit a vyzkoušet. Pokud je to problematické, můžeme se domluvit na osobním předvedení. Zápočtový program má výjimku, že nemusí být v Pythonu - použijte jazyk, který umíte nebo který nejlépe sedí na doménu problému. Zápočtový program bych chtěl mít **odevzdaný nejpozději do 28.2.2021**, poté už za něj zápočet neudělím.
 
 Byl bych velice rád, kdybyste program vyvíjeli v repozitáři na Githubu (nebo Bitbucketu apod.). Ušetří to práci oběma stranám. Pokud s gitem neumíte, pak máte ideální příležitost se ho naučit, budete ho beztak jednou potřebovat. ([Git ve 100 sekundách, ale nám stačí prvních 60](https://www.youtube.com/watch?v=hwP7WQkmECE) a potom [to samé, ale detailněji](https://www.youtube.com/watch?v=HkdAHXoRtos))
 
