@@ -26,7 +26,7 @@ Zápočtový program je větší kus software, který budete programovat doma b�
 
 Byl bych velice rád, kdybyste program vyvíjeli v repozitáři na Githubu (nebo Bitbucketu apod.). Ušetří to práci oběma stranám. Pokud s gitem neumíte, pak máte ideální příležitost se ho naučit, budete ho beztak jednou potřebovat. ([Git ve 100 sekundách, ale nám stačí prvních 60](https://www.youtube.com/watch?v=hwP7WQkmECE) a potom [to samé, ale detailněji](https://www.youtube.com/watch?v=HkdAHXoRtos))
 
-Pro představu rozsahu přidávám odkaz na [můj první zápočťák](https://www.youtube.com/watch?v=hwP7WQkmECE), kde jde hlavně o vzhled a množství kódu + dokumetnace. Jinak to moc číst nemusíte, je to pascal... [Tady je ještě můj druhý zápočťák](https://github.com/Jirka-Mayer/Zapocet-LS-2018), který si můžete vyzkoušet [tady online na webu](http://jirka-mayer.github.io/zapocet-ls-2018/web.html).
+Pro představu rozsahu přidávám odkaz na [můj první zápočťák](https://github.com/Jirka-Mayer/Zapocet-ZS-2017), kde jde hlavně o vzhled a množství kódu + dokumetnace. Jinak to moc číst nemusíte, je to pascal... [Tady je ještě můj druhý zápočťák](https://github.com/Jirka-Mayer/Zapocet-LS-2018), který si můžete vyzkoušet [tady online na webu](http://jirka-mayer.github.io/zapocet-ls-2018/web.html).
 
 Hezky sepsané informace o zápočťácích [má na webu Martin Mareš](http://mj.ucw.cz/vyuka/2021/p1x/pravidla.html). Navíc poskytuje i seznam témat pro inspiraci, takže doporučuji přečíst. Nakonec, Rudolf Kryl [má na webu návod na psaní dokumentace k zápočťáku](https://ksvi.mff.cuni.cz/~kryl/dokumentace.htm), také doporučuji přečíst. Náležitosti tam popsané budu vyžadovat.
 
