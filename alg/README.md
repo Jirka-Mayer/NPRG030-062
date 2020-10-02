@@ -2,6 +2,8 @@
 
 Přednáška (na moodle): https://dl1.cuni.cz/course/view.php?id=8186
 
+[Co se dělalo na cvičeních](co-bylo.txt)
+
 
 ## Podmínky na zápočet
 

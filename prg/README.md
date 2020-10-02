@@ -2,6 +2,8 @@
 
 Přednáška: https://ksvi.mff.cuni.cz/~holan/
 
+[Co se dělalo na cvičeních](co-bylo.txt)
+
 
 ## Podmínky na zápočet
 
