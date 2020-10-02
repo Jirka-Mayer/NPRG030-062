@@ -11,6 +11,6 @@ Pro získání zápočtu z algoritmizace budete muset plnit domácí úkoly. Pl�
 
 Pokud budete studovat pilně, měli byste získat zápočet těsně po vánocích. Zápočet budete potřebovat k tomu abyste se mohli přihlásit na zkoušku.
 
-Některé úkoly budou spíše programovací, jiné budou spíše teoretické. Ty teoretičtější budu opravovat ručně, jelikož na ně nejde v recodexu napsat test. (ale stejně se budou přes recodex odevzdávat)
+Některé úkoly budou spíše programovací, jiné budou spíše teoretické. Ty teoretičtější budu opravovat ručně, jelikož na ně nejde v recodexu napsat test. Budete mi je posílat emailem, ale body budu přiřazovat do recodexu (tzv. *stínové úlohy* v terminologii recodexu).
 
 Úkoly se budou postupně ztěžovat, proto doporučuji je řešit hned od začátku semestru.
