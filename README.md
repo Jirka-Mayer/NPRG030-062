@@ -51,3 +51,15 @@ Jelikož některé informace nemohou být veřejně na Githubu, tak je budu pos�
 Pokud něco zapomenete nebo to v mailu nebude, napište, pošlu vám to extra.
 
 > Ještě jsou tu Moodle stránky Algoritmizace, kde bude také pozvánka na zoom (obou cvičení). Jinak tam ale neplánuju dávat nic víc, než to co bych stejně posílal emailem. Jak se do kurzu na Moodlu dostat vám psal Tomáš Dvořák a kurz je zde:  https://dl1.cuni.cz/course/view.php?id=8186
+
+
+## Chci se procvičovat doma a nevím jak
+
+Středoškolská soutěž Kasiopea má archiv domácích kol, kde se obtížnost úloh stupňuje od velmi lehkých k velmi náročným.
+https://kasiopea.matfyz.cz/
+
+Korespondenční seminář z programování má online k dispozici nejen úlohy, ale i kuchařky vysvětlující nejrůznější oblasti algoritmizace, diskrétní matematiky a spousty dalších užitečných oblastí.
+https://ksp.mff.cuni.cz/
+
+Průvodce labyrintem algoritmů je kniha (dostupná online) shrunijící látku předmětů Algoritmizace, ASD I a ASD II. Její úvodní kapitoly rozebírají paměťovou a časovou složitost, binární vyhledávání, Euklidův algoritmus, třídění, haldy apod.
+http://pruvodce.ucw.cz/
