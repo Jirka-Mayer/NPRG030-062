@@ -33,6 +33,18 @@ https://ksvi.mff.cuni.cz/~dingle/2019/prog_1/programming_1.html
 
 - organizační věci
     - tenhle repozitář - projdi poznámky
-- ...
+- chci procvičit věci z přednášky, abyste je nemuseli (tolik) cvičit doma
+- programujme příklady
+    - googli, ale nekopíruj, pochop a opiš (taky pozor tabs & spaces)
+    1) sečti dvě zadaná čísla
+    2) zadej věk, je víc než 18?
+    3) automat - rozskok na 3 možnosti (Káva, Čaj, Exit)
+    4) aritmetický průměr zadaných čísel, stopka je `""`
+        - pobavit se o časové a paměťové složitosti
+        - co tak si čísla pamatovat? Ukaž pole
+    5) vypiš právě 10x `Hello world!`
+        - ukaž for loop
+        - ukaž pro předchozí problém s polem
+    6) vypiš prvních 10 Fibonacciho čísel
 - zadat úkol
-    - TODO: jakej?
+    - Hvězdičky
