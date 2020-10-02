@@ -12,6 +12,12 @@ https://ufal.mff.cuni.cz/courses/nprg030
 Programko - Dingle:
 https://ksvi.mff.cuni.cz/~dingle/2019/prog_1/programming_1.html
 
+Tomáš Souček - příklady z algoritmizace:
+https://github.com/soCzech/teaching/tree/master/2021winter
+
+Rudolf Kryl 2009
+https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
+
 
 ## Plán na 2020-10-05
 
@@ -23,9 +29,31 @@ https://ksvi.mff.cuni.cz/~dingle/2019/prog_1/programming_1.html
 - tykání
 - organizační věci
     - tenhle repozitář - projdi poznámky
-- ...
+- řešíme úlohy
+    1) najdi největší prvek v poli (jeho hodnotu)
+        - N prvků, chceme to na (N - 1) porovnání
+        - naivní N^2
+        - lineárně / rekurzivně?
+        - paměť? stream? distribuovanost?
+    2) najdi největší prvek v setřízeném poli (jeho hodnotu)
+        - naivně, binárně
+        - rezeber složitosti
+    3) najdi pozice všech největších prvků v náhodném poli
+        - jeden průchod? Dva průchody? Co na to čas a paměť?
+    4) Kuličky
+        V nádobě je N kuliček. Kuličky jsou černé a bílé. Kuličky budu z nádoby
+        odebírat následujícím způsobem: Vytáhnu dvě a místo nich jednu jinou vrátím do nádoby:
+            `Bílá + Bílá --> Bílá`
+            `Černá + Bílá --> Černá`
+            `Černá + Černá --> Bílá`
+        Jakou barvu bude mít poslední kulička co v nádobě zbyde?
+    5) Cesta věží na šachovnici
+        Máme šachovnici `8 x 8` a jedno startovní políčko. Hledáme cestu věží ze startovního políčka, která projde všemi políčky šachovnice právě jednou a je "uzavřená" (skončí na sousedním políčku startovního políčka)
+            - a co když odebereme roh?
 - zadat úkol
-    - TODO: jakej?
+    - Lámání čokolády
+        Máme tabulku čokoládu o `M x N` dílcích. Jaký je nejmenší počet rozlomení
+        čokolády, abychom od sebe oddělili všechny dílky? Vždy smíme lámat pouze jeden kus čokolády (nelze lámat více vrstev na sobě).
 
 **Programování**
 
@@ -48,3 +76,17 @@ https://ksvi.mff.cuni.cz/~dingle/2019/prog_1/programming_1.html
     6) vypiš prvních 10 Fibonacciho čísel
 - zadat úkol
     - Hvězdičky
+
+
+## Plán na 2020-10-12
+
+**Algoritmizace**
+
+- ...
+- zadat úkol
+    - Kamínky na pásce - kombinatorická hra
+
+
+**Programování**
+
+...
