@@ -35,7 +35,7 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
         - naivní N^2
         - lineárně / rekurzivně?
         - paměť? stream? distribuovanost?
-    2) najdi největší prvek v setřízeném poli (jeho hodnotu)
+    2) najdi daný prvek v setřízeném poli (jeho hodnotu)
         - naivně, binárně
         - rezeber složitosti
     3) najdi pozice všech největších prvků v náhodném poli

@@ -1,1 +1,20 @@
-Zatím nic.
+2020-10-05
+
+    * Organizační věci + podmínky zápočtu
+
+    * Jak se dostat do Recodexu
+
+    * Visual Studio Code, instalace Python pluginu, spouštění python kódu
+    
+    * Lazení (Debugging) [F5], pro hledání chyb
+
+    * Příklady (viz. složka 2020-10-05 se zdrojáky)
+        - sečti dvě zadaná čísla, typy hodnot
+        - zadej věk, je víc než 18?
+            "if _:    else: "
+        - automat - rozskok na 3 možnosti (Káva, Čaj, Exit)
+            "if _:    elif _:    else: "
+        - aritmetický průměr zadaných čísel
+            "while not finished:"
+
+    * Zadán dcv - hvězdičky, viz. recodex

@@ -1,1 +1,42 @@
-Zatím nic.
+2020-10-05
+
+    * Organizační info - viz. READMEčka v repozitáři
+
+    * Požadavky na zápočet, zápočet je třeba na zkoušku
+
+    * Najdi největší prvek v poli N prvků na (N - 1) porovnání
+        - aha, bylo na přednášce
+        - naivní řešení v O(N^2) stylem "je tohle největší prvek? A tenhle? ..."
+        - jiné řešení, metodou "rozděl a panuj"
+            - celé v paměti, ale zase lze paralelizovat
+        => mnoho algoritmů na jednu úlohu, je třeba uvažovat kontext problému
+
+    * Najdi daný prvek v setřízeném poli
+        - naivně O(N)
+        - binární vyhledávání O(log N)
+
+    * Černé a bílé kuličky v nádobě
+        - viz. soubor ve složce 2020-10-05
+        - cílem je objevit invariant:
+            Parita počtu černých kuliček se nemění.
+            (tzn. pokud je na začátku sudý počet černých,
+            bude sudý vždy, až do konce)
+
+    * Cesty věží na šachovnici
+        - viz. soubor ve složce 2020-10-05
+        - první pozorování:
+            Když najdu uzavřenou cestu procházející každým
+            políčkem šachovnice právě jednou, tak mě nezajímá,
+            kde je startovní políčko, protože někde na té cestě učitě bude.
+        - druhé pozorování:
+            Stačí najít libovolnou uzavřenou cestu a máme řešení.
+            Příklad cesty - viz. video.
+        - co když odebereme černý roh šachovnice?
+            - pozorování:
+                Uzavřená cesta musí mít sudou délku, protože se v ní střídají
+                černá a bílá pole.
+            - pozorování:
+                Šachovnice ale má 8*8-1 = 63 políček, což je lichý počet
+            => Žádná taková cesta neexistuje.
+
+    * Zadání dcv - lámání čokolády, viz. Recodex
