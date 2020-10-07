@@ -34,6 +34,11 @@ Domácí úkoly z obou cvičení budou zadávány a odevzdávány pomocí systé
 Jak rozchodit recodex:
 
 - Jděte na https://recodex.mff.cuni.cz/
+- Pokud jste tu poprvé, tak se registrujte
+    - vlevo v menu je položka pro registraci (`Zaregistrovat se`)
+    - registrovat účet vázaný na CAS, instance `MFF`
+    - nejde mi se registrovat
+        - zkontrolujte, že v účtu v SISu máte ověřenou emailovou adresu
 - Přihlašte se (**pozor:** `Přihlásit přes CAS`) a zadejte stejné údaje jako používáte v SISu.
 - V menu vlevo dole je položka `SIS Integrace` a tam se přidejte do skupin `Algoritmizace` a `Programování 1`.
 
