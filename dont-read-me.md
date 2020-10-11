@@ -82,11 +82,33 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
 
 **Algoritmizace**
 
-- ...
+- domácí úkol
+    - Není tam nějaký invariant?
+    - Nejde dát do vztahu počet kusů čokolády a počet provedených zlomení?
+- eukleidův algoritmus
+- pište řešení do google drive souboru
+- příklady
+    1) Velbloud
+    2) Sklenice
+    3) Mince na stole
 - zadat úkol
     - Kamínky na pásce - kombinatorická hra
 
 
 **Programování**
 
-...
+- googli, ale nekopíruj, pochop a opiš (taky pozor tabs & spaces)
+    - jak se zjistí délka seznamu?
+    - jak se přidá prvek na konec seznamu?
+- zkopírujte řešení do google drive souboru
+- příklady
+    1) vypiš prvních 10 Fibonacciho čísel
+    2) string strip (trim) - ořízni zadaný text
+    3) vypiš zadaná čísla v opačném pořadí
+        - jak roztrhnout čísla na jedné řádce? `.split()`
+        - zásobník
+        - `[::-1]`
+    4) spočítej počty výskytů jednotlivých čísel ve vstupu (omezené rozmezí čísel)
+    5) přihrádkové třídění
+-zadat úkol
+    - Počet slov ve větě
