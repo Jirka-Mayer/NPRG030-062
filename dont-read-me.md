@@ -94,7 +94,6 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
 - zadat úkol
     - Kamínky na pásce - kombinatorická hra
 
-
 **Programování**
 
 - googli, ale nekopíruj, pochop a opiš (taky pozor tabs & spaces)
@@ -112,3 +111,21 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
     5) přihrádkové třídění
 -zadat úkol
     - Počet slov ve větě
+
+
+## Plán na 2020-10-19
+
+**Algoritmizace**
+
+- eukleidův algoritmus
+- příklady
+    1) Mince na stole
+- zadej dcv
+    - TODO
+
+**Programování**
+
+- příklady
+    - TODO
+- zadej dcv
+    - TODO

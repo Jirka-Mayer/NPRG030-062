@@ -19,4 +19,21 @@ data = [
     0, 4, 9, 5, 2, 9, 5, 0, 6, 7, 5, 2, 7, 7, 6, 9, 8, 5, 3, 5
 ]
 
-# TODO
+# ===========
+# zadávání vlastního vstupu na jeden řádek
+# (odkomentuj, pro použití)
+
+# given_input = input()
+# data = []
+# for i in given_input.split():
+#     data.append(int(i))
+
+# ===========
+
+digit_counts = [0] * 10
+
+for d in data:
+    digit_counts[d] += 1
+
+for i in range(10):
+    print(str(i) + ":", str(digit_counts[i]) + "x")

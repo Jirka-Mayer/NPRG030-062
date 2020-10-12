@@ -1,3 +1,33 @@
+2020-10-12
+
+    * Výpis Fibonacciho posloupnosti
+        - sekvenčně
+        - s pamatování v poli
+        - třeba i rekurzivně? Později.
+    
+    * String .strip()
+        - hodí se znát pomocné funkce
+            .split(), .join(), .strip()
+        - hodí se vědět, jak je implementovat
+
+    * Zrcadlo (vypiš zadaný vstup v opačném pořadí)
+        - zadávání vstupu s vyskočením z cyklu pomocí "break"
+        - opakovat cyklus pomocí "continue"
+        - zásobník
+            = datová struktura s operacemi PUSH a POP
+        - fígl s `print(vstup[::-1])`
+
+    * Frekvenční tabulka
+        - zadávání posloupnosti čísel na jednom řádku (.split())
+
+    * Bonus: Přihrádkové třídění
+        - když už máme počty jednotlivých číslic, tak z nich můžeme
+        zkonstruovat setřízené pole v lineární časové složitosti
+        (což je rychlejší než klasické třídění)
+
+    * Zadán dcv - počet slov ve větě
+
+
 2020-10-05
 
     * Organizační věci + podmínky zápočtu

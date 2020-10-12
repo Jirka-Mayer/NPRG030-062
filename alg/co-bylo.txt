@@ -1,3 +1,33 @@
+2020-10-12
+
+    * Hint na domácí úkol s čokoládou
+        Nešel by tam najít invariant? Není nějaký vztah,
+        co by svázal počet kusů čokolády s počtem provedených zlomení?
+
+    * Eulkeidův algoritmus ještě nebyl, tak jsme si zopakovali
+        testy prvočíselnosti a eratostenovo síto.
+
+    * Příklad s velbloudem
+        - šetři banány co to jde, spotřeba 5 banánů, 3 banány, 1 banán
+        podle toho, zda neseme 2K+, 1K+, < 1K banánů
+        - to nám dalo nejlepší možnost 533 banánů do cíle,
+            což se zdá být nejlepším (místo důkazu argument o šetření)
+
+    * Sklenice na čtvercovém stole
+        - U sebe a diagonálně, abychom dostali 3 do stejné orientace.
+        - Potom vem dvě u sebe a jednu z nich otoč.
+        - Šáhni na diagonálu, pokud jsou stejné, tak máme stejné diagonály,
+            pokud ne, tak máme stejné vedle sebe.
+            - pokud máme stejné vedle sebe, tak sáhni vedle sebe a buď vyhraj,
+                nebo obě zneguj, ať dostaneme stejné diagonály
+        - když máme stejné diagonály, tak zneguj libovolnou diagonálu a jsme tam
+        - viz. video, je tam shrnutí
+
+    * Mince na stole budou příště
+
+    * Zadán domácí úkol s kameny na pásce (kombinatorická hra).
+
+
 2020-10-05
 
     * Organizační info - viz. READMEčka v repozitáři

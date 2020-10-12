@@ -6,4 +6,22 @@
     První dvě čísla jsou 0 a 1, každé další je součet dvou předchozích.
 """
 
-# TODO
+N = int(input())
+
+# INVARIANT: "a" je předposlední a "b" je poslední
+a = 0
+b = 1
+print(a)
+print(b)
+
+for i in range(N - 2):
+    # napočítej novej stav programu
+    new_a = b
+    new_b = a + b
+
+    # vytiskni to další číslo v posloupnosti
+    print(new_b)
+
+    # oprav invariant
+    a = new_a
+    b = new_b

@@ -16,4 +16,31 @@ data = [
     0, 4, 9, 5, 2, 9, 5, 0, 6, 7, 5, 2, 7, 7, 6, 9, 8, 5, 3, 5
 ]
 
-# TODO
+# počítání výskytů
+
+digit_counts = [0] * 10
+
+for d in data:
+    digit_counts[d] += 1
+
+
+# třídění
+
+sorted_data = []
+for i in range(10):
+    sorted_data += [i] * digit_counts[i]
+
+print(sorted_data)
+
+# nebylo na cviku:
+# můžu setřídit data na místě, čímž ušetřím nějaké alokace
+# a triky s [i] * 123, apod:
+# (takhle bych to implementoval mimo python)
+
+at = 0
+for digit in range(10):
+    for i in range(digit_counts[digit]):
+        data[at] = digit
+        at += 1
+
+print(data)
