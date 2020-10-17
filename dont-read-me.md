@@ -121,11 +121,21 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
 - příklady
     1) Mince na stole
 - zadej dcv
-    - TODO
+    - eukleidův algoritmus
 
 **Programování**
 
-- příklady
-    - TODO
+- list comprehension
+    - plyne z matematické definice množin
+    - map, filter
+- příklady - pohyb šachových figurek
+    - 1) reprezentace šachovnice
+        - funkce strčíme do souboru board.py
+    - 2) tisk šachovnice společně se seznamem červených políček
+    - 3) pěšák rovně
+        - funkce strčíme do souboru piece.py
+    - 4) král
+    - 5) věž
 - zadej dcv
-    - TODO
+    - Game of life
+
