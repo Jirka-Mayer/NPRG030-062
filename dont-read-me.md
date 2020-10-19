@@ -125,6 +125,8 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
 
 **Programování**
 
+- googlit
+- git
 - list comprehension
     - plyne z matematické definice množin
     - map, filter

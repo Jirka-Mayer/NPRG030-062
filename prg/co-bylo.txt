@@ -1,3 +1,21 @@
+2020-10-19
+
+    * demonstrace gitu
+
+    * list comprehension
+        https://www.pythoncheatsheet.org/#Comprehensions
+
+    * Dlouhé povídání o dekompozici programu do funkcí na příkladu s šachy
+        - programování shora / zdola
+        - for i, x in enumerate(["A", "B", "C"]):
+        - tuple
+        - from my_file import my_func
+        - split(), splitlines()
+        - lazení pomocí breakpointu v akci
+
+    * Zadán dcv - Game of life
+
+
 2020-10-12
 
     * Výpis Fibonacciho posloupnosti

@@ -1,3 +1,17 @@
+2020-10-19
+
+    * Dovysvětlení principu eukleidova algoritmu
+        - invariant, že všechna čísla během výpočtu jsou násobkem
+            největšího společného dělitele vstupních čísel
+
+    * Příklad - mince na stole
+        - využij středovou souměrnost stolu ke své výhodě
+
+    * Dcv - Implementace eukleidova algoritmu
+
+    * Ukázka použití hornerova schématu pro streamové (proudové) parsování čísel
+
+
 2020-10-12
 
     * Hint na domácí úkol s čokoládou

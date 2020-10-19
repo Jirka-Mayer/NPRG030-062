@@ -6,6 +6,11 @@
     Seznam pozic musí vzít v potaz barvy figurek, jejich sbírání apod.
 """
 
+from board import *
+from piece import get_possible_targets
+
+# INPUT
+
 board_raw = """\
 BR BN BB BQ BK BB BN BR
 BP BP BP BP BP BP BP BP
@@ -17,9 +22,13 @@ WP WP WP WP WP WP WP WP
 WR WN WB WQ WK WB WN WR\
 """
 
-tile = (6, 3)
+tile = (6, 5)
 
-# chceme vytisknout pozice (5, 3) a (4, 3)
+# MAIN
 
-# jak budeme šachovnici reprezentovat?
-# chceme ji umět načíst a vytisknout - to jsou první dva úkoly
+board = load_board(board_raw)
+targets = get_possible_targets(board, tile)
+
+# OUTPUT
+
+print_board(board, targets)
