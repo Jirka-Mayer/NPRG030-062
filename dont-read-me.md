@@ -141,3 +141,47 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
 - zadej dcv
     - Game of life
 
+
+## Plán na 2020-10-26
+
+**Algoritmizace**
+
+- příklady
+    1) implementuj binární vyhledávání nad polem
+        - vygeneruj pole náhodných čísel a setřiď ho (sort())
+        - implementuj binární vyhledávání
+    2) implementuj zásobník - třída `Stack`
+        - proč? Nestačí list?
+            Omezení API + zachování invariantů (např. nelze přehodit prvky)
+            Pro 90% použití stačí list.
+        - print
+            - `__repr__(self)`
+        - push, pop
+        - peek
+- zadej dcv
+    - hledání vadné kuličky
+
+
+**Programování**
+
+- příklady
+    1) validní řetězec závorek - "()((()())())" vs "((()(", "()(()))"
+        - vymysleme algoritmus dohromady
+        - využij zásobník z algoritmizace
+        - implementuje každý sám
+- přednáška
+    2) načítání a ukládání textu v souboru
+        - Příklad - načti soubor a převeď řádky na uppercase s uvozovkama
+        - otevření, zavření souboru `r`
+            - `with` - nezapomenete soubor zavřít
+        - čtení řádek po řádku
+        - zápis do souboru `w`, vytvoří/vymaže soubor
+        - append na konec souboru `a`
+        - přečtení všech řádek naráz
+        https://stackoverflow.com/questions/1466000/difference-between-modes-a-a-w-w-and-r-in-built-in-open-function
+- příklady
+    3) zobrazení obrázku PBM
+        - https://cgg.mff.cuni.cz/~pepca/lectures/pdf/icg-06-rasterformats.pdf
+        - https://en.wikipedia.org/wiki/Netpbm
+- zadej dcv
+    - skalární součin vektorů
