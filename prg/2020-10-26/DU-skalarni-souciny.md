@@ -15,11 +15,11 @@ Program otevře soubor s názvem `input.txt`, který obsahuje seznam dvojic vekt
 Program spočítá skalární součin obou vektorů na každém řádku a výsledek zapíše do souboru `output.txt`:
 
 ```
-60
-31
-44
-72
--45
+-1194
+-4389
+-1330
+589
+-916
 ```
 
 Vstupní data budou obsahovat pouze celočíselné hodnoty. Vektory budou vždy trojrozměrné.
