@@ -156,6 +156,7 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
             Pro 90% použití stačí list.
         - print
             - `__repr__(self)`
+        - privátní metody / proměnné
         - push, pop
         - peek
 - zadej dcv
