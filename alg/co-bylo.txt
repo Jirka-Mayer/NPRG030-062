@@ -1,3 +1,24 @@
+2020-10-26
+
+    * Generování náhodných dat
+        - jak funguje generátor pseudonáhodných čísel, `import random`
+        - počáteční stav `random.seed(42)`
+        - nevhodnost pro kryptografii kvůli krátkým cyklům v permutaci
+        - `[random.randint(0, 100) for _ in range(50)]`
+        - `.sort()`
+
+    * Implementace binárního vyhledávání
+        - vylepšení s ukazateli začínajícími mimo rozsah pole
+
+    * Implementace zásobníku - třída `Stack`
+        (překryv algoritmizace s programováním)
+        - pro běžné účely postačí list(), ale někdy se hodí mít
+            vlastní datovou strukturu
+        - privátní metody
+
+    * Dcv - hledání vadné kuličky (kočíčí zlato vs. ryzí zlato)
+
+
 2020-10-19
 
     * Dovysvětlení principu eukleidova algoritmu

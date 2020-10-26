@@ -186,3 +186,23 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
         - https://en.wikipedia.org/wiki/Netpbm
 - zadej dcv
     - skalární součin vektorů
+
+
+## Plán na 2020-11-02
+
+**Algoritmizace**
+
+- TODO
+- zadej dcv
+    - TODO
+
+
+**Programování**
+
+- příklady
+    1) zobrazení obrázku PBM
+        - https://cgg.mff.cuni.cz/~pepca/lectures/pdf/icg-06-rasterformats.pdf
+        - https://en.wikipedia.org/wiki/Netpbm
+- TODO
+- zadej dcv
+    - TODO

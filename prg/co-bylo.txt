@@ -1,3 +1,28 @@
+2020-10-26
+
+    * Implementace zásobníku - třída `Stack`
+        (překryv algoritmizace s programováním)
+        - pro běžné účely postačí list(), ale někdy se hodí mít
+            vlastní datovou strukturu
+        - privátní metody
+
+    * Testování správnosti uzávorkování pomocí zásobníku
+        - pro obyčejné závorky "(()())()" stačí počítadlo,
+            takže jsme zavedli více závorek <>{}[] a zásobník
+        - pěkná dekompozice programu do funkcí + třídy `Stack`
+
+    * Práce se soubory
+        - problém s relativní cestou - závisí na "current working directory"
+            - řešení pomocí funkcí v knihovně `os.path.*` a hodnoty `__file__`
+        - otevření a zavření souboru
+            - zavření lze vyřešit elegantně pomocí bloku "with"
+        - čtení jedné řádky, více řádek, všech řádek postupně
+        - zápis textu, zápis řádek
+        - koncovka souboru `.txt` je čistě kosmetická věc, nemá vliv na nic
+        - povídání o Linux, Mac "\n" koncích řádek, vs. Windows "\r\n"
+
+    * Zadání dcv - práce se soubory (skalární součiny)
+
 2020-10-19
 
     * demonstrace gitu
