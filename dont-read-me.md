@@ -192,7 +192,10 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
 
 **Algoritmizace**
 
-- TODO
+- páté cvičení
+- příklady
+    1) naprogramujeme si haldu
+    https://dl1.cuni.cz/pluginfile.php/1081151/mod_resource/content/5/3%20Trideni.pdf
 - zadej dcv
     - Hledání vadné koule pro N koulí, vyjádři "časovou složitost" v O notaci
 
@@ -203,6 +206,6 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
     1) zobrazení obrázku PBM
         - https://cgg.mff.cuni.cz/~pepca/lectures/pdf/icg-06-rasterformats.pdf
         - https://en.wikipedia.org/wiki/Netpbm
-- TODO
+    2) když zbyde čas, tak RLE kompresi obrázku
 - zadej dcv
     - váhy - implementace
