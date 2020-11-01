@@ -194,7 +194,7 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
 
 - TODO
 - zadej dcv
-    - TODO
+    - Hledání vadné koule pro N koulí, vyjádři "časovou složitost" v O notaci
 
 
 **Programování**
@@ -205,4 +205,4 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
         - https://en.wikipedia.org/wiki/Netpbm
 - TODO
 - zadej dcv
-    - TODO
+    - váhy - implementace
