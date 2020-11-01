@@ -202,6 +202,10 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
 
 **Programování**
 
+- přednáška
+    - standardní vstup
+        BASH>  ./program < input.txt > output.txt
+        PS>    Get-Content input.txt | ./program > output.txt
 - příklady
     1) zobrazení obrázku PBM
         - https://cgg.mff.cuni.cz/~pepca/lectures/pdf/icg-06-rasterformats.pdf

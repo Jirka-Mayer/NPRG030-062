@@ -1,0 +1,1 @@
+# ukázka std. I/O
