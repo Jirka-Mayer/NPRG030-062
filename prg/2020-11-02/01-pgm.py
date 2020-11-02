@@ -10,6 +10,20 @@ Viz. soubor "feep.pgm":
 Vyrobte si třídu PgmImage, která bude obrázek reprezentovat
 """
 
+pixels = [[0, 0.25, 0.5], [0, 0.1, 0]]
+
+class PgmImage():
+    def __init__(self, file_name):
+        self.__pixels = []
+        pass
+
+    def draw(self):
+        pass
+
+img = PgmImage("feep.pgm")
+
+img.draw()
+
 
 def print_pixel(intensity):
     """Vytiskne jeden šedotónový pixel s intenzitou mezi 0.0 a 1.0"""
