@@ -1,3 +1,19 @@
+2020-11-02
+
+    * Povídání o standardním vstupu a výstupu (std. i/o = stdio)
+        - přesměrování vstupu a výstupu z konzole
+            - i pro windows
+        - využití konceptu "soubor" v unixu i pro jiné věci (např. hardware)
+        - neplést s argumenty programu
+        - roura (pipe), výstup jednoho programu jde na vstup druhého
+
+    * Načtení a zobrazení obrázku ve formátu PGM
+        - co je PGM
+        - návrh API, implementace
+
+    * Dcv - implementace hledání vadné koule
+
+
 2020-10-26
 
     * Implementace zásobníku - třída `Stack`
