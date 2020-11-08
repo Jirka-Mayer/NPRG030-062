@@ -213,3 +213,39 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
     2) když zbyde čas, tak RLE kompresi obrázku
 - zadej dcv
     - váhy - implementace
+
+
+## Plán na 2020-11-09
+
+**Algoritmizace**
+
+- pozn: FEEP nebyl na windows vidět
+- příklady
+    1) implementace merge sort
+    2) rekurze je cool, šla by použít na posčítání seznamu?
+        - pozor na stack overflow
+- zadej dcv
+    - dokončit haldu z minula a implementovat heapsort
+
+
+**Programování**
+
+- příklady
+    - sokoban
+        - https://en.wikipedia.org/wiki/Sokoban
+        - zeď `##`, box `[]`, hráč `:)`, cíl `--`, cíl s boxem, `{}`
+        - rozmyšlení vstupu, výstupu, architektury
+        - rozdělení na části
+        - reprezentace světa, hráče, krabic, cílových políček
+- zadej dcv
+    - bases, od Holana
+
+
+## Nápady do budoucna
+
+- FEEP
+    - funkce pro získání width a height + @property
+    - negativ obrázku - `compute_negative().draw()`, vyrobí novou instance `PgmImage`
+- RLE obrázku
+- pygame? (záleží co budou dělat na přednášce)
+- přepsat sokobana do pygame - proč je důležitý dobrý návrh
