@@ -219,7 +219,9 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
 
 **Algoritmizace**
 
+- šesté cvičení
 - pozn: FEEP nebyl na windows vidět
+- pozn: dnes je poslední den na váhy, budou třeba na další 2 úkoly
 - příklady
     1) implementace merge sort
     2) rekurze je cool, šla by použít na posčítání seznamu?
@@ -242,6 +244,8 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
 
 
 ## Nápady do budoucna
+
+- Do příště: radši menší příklady a dávat na ně víc času, aby to lidi stihli programovat
 
 - FEEP
     - funkce pro získání width a height + @property

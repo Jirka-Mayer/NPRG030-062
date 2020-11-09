@@ -1,3 +1,11 @@
+2020-11-09
+
+    * Návrh, dekompozice a programování hry Sokoban
+        - ukázka vlastností `@property`
+
+    * Zadání dcv - Bases
+
+
 2020-11-02
 
     * Povídání o standardním vstupu a výstupu (std. i/o = stdio)

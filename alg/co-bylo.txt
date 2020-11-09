@@ -1,3 +1,14 @@
+2020-11-09
+
+    * Implementace merge sort
+        - povídání o optimalizacích vs. čitelnosti
+
+    * Sčítání pole - procedurálně, rekurzivně
+        - stack overflow
+
+    * Dcv - dokončit heap sort
+
+
 2020-11-02
 
     * Programování vlastní haldy
