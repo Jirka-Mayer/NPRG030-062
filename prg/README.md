@@ -32,6 +32,8 @@ Pro představu rozsahu přidávám odkaz na [můj první zápočťák](https://g
 
 Hezky sepsané informace o zápočťácích [má na webu Martin Mareš](http://mj.ucw.cz/vyuka/2021/p1x/pravidla.html). Navíc poskytuje i seznam témat pro inspiraci, takže doporučuji přečíst. Nakonec, Rudolf Kryl [má na webu návod na psaní dokumentace k zápočťáku](https://ksvi.mff.cuni.cz/~kryl/dokumentace.htm), také doporučuji přečíst. Náležitosti tam popsané budu vyžadovat.
 
+**Update:** Další informace a povídání o zápočťácích [zde](zapoctaky.md).
+
 
 ## V čem budeme programovat a jak to nainstaluju
 

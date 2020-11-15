@@ -243,13 +243,35 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
     - bases, od Holana
 
 
+## Plán na 2020-11-16
+
+**Algoritmizace**
+
+- sedmé cvičení
+- bucket sort
+    - setřídíme tisíc lidí podle jejich věku
+- implementace fronty pomocí spojového seznamu
+- dcv: (libovolná) implementace prioritní fronty
+
+
+**Programování**
+
+- povídání o zápočtových programech
+- run-length encoding souborů .pgm (nebo obecně souborů s čísly oddělenými mezerami)
+- dcv: skoro-setřízená posloupnost
+
+
 ## Nápady do budoucna
 
 - Do příště: radši menší příklady a dávat na ně víc času, aby to lidi stihli programovat
 
+- testování - jak ověřit funkčnost programu? Testovací data, automatické testy
+- matice - implementovat třídu Matrix
+- trije a radix sort
+- flood fill pomocí fronty
+    - nejprve nastavíme jeden pixel
+- parsovat a vyhodnocovat prefixovou notaci - výrazy: `*(+(1,5),8)`
 - FEEP
-    - funkce pro získání width a height + @property
     - negativ obrázku - `compute_negative().draw()`, vyrobí novou instance `PgmImage`
-- RLE obrázku
 - pygame? (záleží co budou dělat na přednášce)
 - přepsat sokobana do pygame - proč je důležitý dobrý návrh
