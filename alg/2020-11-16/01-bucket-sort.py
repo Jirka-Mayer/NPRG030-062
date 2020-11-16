@@ -18,8 +18,16 @@ people = [
     for _ in range(1000)
 ]
 
-# TODO: implement the sort
-sorted_people = people
+# bucket sort
+buckets = [[] for _ in range(101)]
+
+for person in people:
+    name, age = person
+    buckets[age].append(person)
+
+sorted_people = []
+for bucket in buckets:
+    sorted_people += bucket
 
 # print out the result
 for person in sorted_people:

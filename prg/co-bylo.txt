@@ -1,3 +1,14 @@
+2020-11-16
+
+    * Detailní informace o zápočtových programech
+        - https://github.com/Jirka-Mayer/NPRG030-062/blob/master/prg/zapoctaky.md
+
+    * Run-length encoding .pgm souborů
+        - jen zakódování
+
+    * Dcv - skoro-setřízené posloupnosti
+
+
 2020-11-09
 
     * Návrh, dekompozice a programování hry Sokoban

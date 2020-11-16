@@ -265,6 +265,8 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
 
 - Do příště: radši menší příklady a dávat na ně víc času, aby to lidi stihli programovat
 
+- chtělo by to nakousnout pygame, aby věděli jak to vypadá a jak se to používá, kvůli zápočťákům
+- RLE dekomprese
 - testování - jak ověřit funkčnost programu? Testovací data, automatické testy
 - matice - implementovat třídu Matrix
 - trije a radix sort
@@ -273,5 +275,4 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
 - parsovat a vyhodnocovat prefixovou notaci - výrazy: `*(+(1,5),8)`
 - FEEP
     - negativ obrázku - `compute_negative().draw()`, vyrobí novou instance `PgmImage`
-- pygame? (záleží co budou dělat na přednášce)
 - přepsat sokobana do pygame - proč je důležitý dobrý návrh

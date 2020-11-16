@@ -1,3 +1,16 @@
+2020-11-16
+
+    * Bucket sort na setřídění lidí podle věku
+
+    * Implementace fronty pomocí spojového seznamu
+        - chtěli jsme ukazatel jak na začátek, tak na konec, abychom odebírali rychle
+        - nakonec jsme zjistili, že ne to je potřeba oboustranný spoják
+        - ale ten jsme nechtěli implementovat, tak jsme pro dequeue museli procházet celou frontu
+        - ačkoliv oboustranný spoják by byl byýval nakonec lepší...
+
+    * Dcv - prioritní fronta
+
+
 2020-11-09
 
     * Implementace merge sort
