@@ -261,12 +261,39 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
 - dcv: skoro-setřízená posloupnost
 
 
+## Plán na 2020-11-23
+
+**Algoritmizace**
+
+- osmé cvičení
+- rekurze:
+- počet zápisů čísla jako součtů posloupnosti přirozených čísel
+    - nejprve rozmyslet (ať píšou na tabuli) + rekurze ??
+    - implementovat pro počty
+    - nejen počet, ale je i vypsat (jen zmínit, ne programovat)
+    - cachování
+    - počet různých rostoucích posloupností
+- dcv - vypsat všechny permutace pro dané N
+
+
+**Programování**
+
+- pygame, základy kvůli zápočťákům
+    - https://www.pygame.org/wiki/GettingStarted
+    - instalace - přes python z terminálu
+- 01-pygame.py - projít, popsat
+- 00-pygame-template.py - projít
+- 02-board.py ... zadat, naprogramovat
+- zmínit numpy, opencv, matplotlib
+- dcv - tři poskakující koule
+
+
 ## Nápady do budoucna
 
 - Do příště: radši menší příklady a dávat na ně víc času, aby to lidi stihli programovat
 
-- chtělo by to nakousnout pygame, aby věděli jak to vypadá a jak se to používá, kvůli zápočťákům
 - RLE dekomprese
+- pálení papíru (kasiopea), naivně, pomocí fronty
 - testování - jak ověřit funkčnost programu? Testovací data, automatické testy
 - matice - implementovat třídu Matrix
 - trije a radix sort
