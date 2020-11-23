@@ -1,3 +1,19 @@
+2020-11-23
+
+    * Instalace pygame
+
+    * Vysvětlení hlavích konceptů okolo pygame
+
+    * Aplikace: Tabule na kreslení
+
+    * Ukázka jiných well-known knihoven
+        - numpy - matice a práce s nimi
+        - opencv (cv2) - funcke na zpracování obrazu
+        - matplotlib - kreslení grafů, případně obrázků
+
+    * dcv - Poskakující koule
+
+
 2020-11-16
 
     * Detailní informace o zápočtových programech

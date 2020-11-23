@@ -56,9 +56,9 @@ while True:
 
     # upravíme vektor rychlosti míčku, pokud "narazil" na stěnu
     if ballrect.left < 0 or ballrect.right > width:
-        velocity[0] = -velocity[0]
+        velocity.x = -velocity.x
     if ballrect.top < 0 or ballrect.bottom > height:
-        velocity[1] = -velocity[1]
+        velocity.y = -velocity.y
 
     # --- DRAW ---
 
@@ -74,4 +74,4 @@ while True:
 
     # budeme spát (nic nedělat) tak dlouho, aby jeden snímek trval 1/30 sekundy
     # to nám zajistí, že nebudeme mít 100% vytížení CPU, nebudeme kreslit "co nejvíc" snímků
-    clock.tick(30)
+    #clock.tick(30)

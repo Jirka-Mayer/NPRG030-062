@@ -6,10 +6,10 @@ import matplotlib.pyplot as plt
 def fix_path(p):
     return os.path.dirname(os.path.realpath(__file__)) + "/" + p
 
-# a = np.array([
-#     [1, 2, 3],
-#     [4, 5, 6]
-# ], dtype=np.float32)
+a = np.array([
+    [1, 2, 3],
+    [4, 5, 6]
+], dtype=np.float32)
 # print(a.shape)
 # print(a)
 

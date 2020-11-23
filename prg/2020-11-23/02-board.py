@@ -26,29 +26,34 @@ screen = pygame.display.set_mode((width, height))
 clock = pygame.time.Clock()
 
 # definuj stav hry (INITIALIZE)
-# ...
+previous_mouse_position = (0, 0)
+current_mouse_position = (0, 0)
 
 while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             sys.exit()
 
-    # aktualizuj stav hry (UPDATE)
-    # ...
+    previous_mouse_position = current_mouse_position
+    current_mouse_position = pygame.mouse.get_pos()
 
-    # vykresli stav hry (DRAW)
-    screen.fill(pygame.Color(0, 0, 0))
-    screen.fill(
-        pygame.Color(0, 255, 0),
-        pygame.Rect(100, 50, 200, 10)
-    )
-    pygame.draw.polygon(
-        screen,
-        Color(255, 0, 0),
-        [Vector2(random.randint(100, 400), random.randint(100, 400)) for _ in range(10)],
-        width=3
-    )
-    # ...
+    if pygame.key.get_pressed()[pygame.K_SPACE]:
+        screen.fill((0, 0, 0))
+
+    if pygame.mouse.get_pressed()[0]:
+        pygame.draw.line(
+            screen,
+            pygame.Color(255, 255, 255),
+            previous_mouse_position,
+            current_mouse_position,
+            3
+        )
+        pygame.draw.circle(
+            screen,
+            pygame.Color(255, 255, 255),
+            pygame.mouse.get_pos(),
+            5.0
+        )
     
     pygame.display.flip()
     clock.tick(30)

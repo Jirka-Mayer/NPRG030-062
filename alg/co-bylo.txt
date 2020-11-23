@@ -1,3 +1,12 @@
+2020-11-23
+
+    * Počet zápisů čísla jako součtu posloupnosti přirozených čísel
+        - došli jsme k řešení s duplicitami a jejich redukce pomocí množin
+        - nevyřešili jsme to, bez vypsání všech posloupností
+
+    * Dcv - vypsat všechny permutace pro dané N
+
+
 2020-11-16
 
     * Bucket sort na setřídění lidí podle věku

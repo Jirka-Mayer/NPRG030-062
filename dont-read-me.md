@@ -292,6 +292,8 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
 
 - Do příště: radši menší příklady a dávat na ně víc času, aby to lidi stihli programovat
 
+- dořešit problém počtu posloupností sčítajících se na N
+
 - RLE dekomprese
 - pálení papíru (kasiopea), naivně, pomocí fronty
 - testování - jak ověřit funkčnost programu? Testovací data, automatické testy
