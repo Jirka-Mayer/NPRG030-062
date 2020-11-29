@@ -288,11 +288,35 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
 - dcv - tři poskakující koule
 
 
+## Plán na 2020-11-30
+
+**Algoritmizace**
+
+- deváté cvičení
+- počet zápisů čísla jako součtů posloupnosti přirozených čísel
+    - zopakovat co bylo minule, zasekli jsme se na tom, že jsme některé výrazy počítali několikrát
+        - proč několikrát? Co jsme reálně počítali? (stromy)
+    - co jsme chtěli počítat - posloupnosti, řešení zkracováním o 1 prvek
+        - stromy -> půlení (binární); posloupnosti -> zkracování o 1
+    - příklady nejprve společně vymyslet a teprve potom implementovat:
+    - příklad: vypište všechny posloupnosti "+--++-+-+" délky N
+    - příklad: kolik existuje binárních stromů na N vrcholech? (Katalánova čísla)
+        - vztah mezi počtem listů úplného bin. stromu a počtem vnitřních vrcholů
+        - https://en.wikipedia.org/wiki/Catalan_number
+- dcv - vypiš všechna platná uzávorkování pro N otevíracích a N zavíracích závorek
+
+
+**Programování**
+
+- RLE dekomprese
+- přetěžování operátorů
+- dcv - P1M: Třída na obdélníky
+- pálení papíru (v pygame na Surface)
+
+
 ## Nápady do budoucna
 
 - Do příště: radši menší příklady a dávat na ně víc času, aby to lidi stihli programovat
-
-- dořešit problém počtu posloupností sčítajících se na N
 
 - RLE dekomprese
 - pálení papíru (kasiopea), naivně, pomocí fronty
