@@ -300,6 +300,9 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
         - stromy -> půlení (binární); posloupnosti -> zkracování o 1
     - příklady nejprve společně vymyslet a teprve potom implementovat:
     - příklad: vypište všechny posloupnosti "+--++-+-+" délky N
+    - POČÍTÁNÍ VS. VYPISOVÁNÍ
+    - Generátory
+    - MEMOIZACE!
     - příklad: kolik existuje binárních stromů na N vrcholech? (Katalánova čísla)
         - vztah mezi počtem listů úplného bin. stromu a počtem vnitřních vrcholů
         - https://en.wikipedia.org/wiki/Catalan_number
@@ -308,9 +311,23 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
 
 **Programování**
 
-- RLE dekomprese
+- organizace projektu
 - přetěžování operátorů
 - dcv - P1M: Třída na obdélníky
+
+
+## Plán na 2020-12-6
+
+**Algoritmizace**
+
+- desáté cvičení
+- ...
+
+
+**Programování**
+
+- RLE dekomprese
+- nová šablona na pygame
 - pálení papíru (v pygame na Surface)
 
 

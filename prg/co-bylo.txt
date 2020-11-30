@@ -1,3 +1,17 @@
+2020-11-30
+
+    * Organizace repozitáře
+        - zdrojové kódy do podsložky (src, app, tetris, ...)
+        - možnost oddělit knihovnu od aplikace, případně více aplikací
+        - možnost vytvořit složky pro testy a dokumentaci
+        - .gitignore
+        - README.md
+
+    * Přetěžování operátorů, třída Vector2
+
+    * Dcv - třída na obdélník Rect
+
+
 2020-11-23
 
     * Instalace pygame

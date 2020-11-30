@@ -1,3 +1,21 @@
+2020-11-30
+
+    * Počet zápisů čísla jako součtu posloupnosti přirozených čísel
+        - kde byla chyba (počítali jsme stromy, ne sekvence)
+        - rekurzivně stromy vs. sekvence, jak se liší
+        - počítání struktur vs. jejich generování a optimalizace v matematice
+        - generátory (yield)
+        - memoizace (cachování)
+        - dynamické programování
+
+    * Počet posloupností plusů a mínusu délky N
+
+    * Počet binárních stromů s N vrcholy
+        - Katalanova čísla
+
+    * Dcv - všechna platná uzávorkování na N párech závorek
+
+
 2020-11-23
 
     * Počet zápisů čísla jako součtu posloupnosti přirozených čísel
