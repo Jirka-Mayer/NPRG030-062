@@ -1,6 +1,11 @@
-# Teapot
+# Aladin a kouzelná lampa
 
-V souboru `teapot.obj` se nachází čajová konvička. Jen je zakletá do hromady bodů a trojůhelníků aby ji princ nepoznal. Vaším cílem je spanilou konvičku vysvobodit a vykreslit ji v pygame.
+> V souboru `teapot.obj` se nachází kouzelná lampa s džinem. Aby vám džin mohl splnit přání, musíte jeho lampu najít a zobrazit v pygame.
+
+Vaším úkolem je načíst a zobrazit soubor `teapot.obj`
+
+- Odkaz na model v repozitáři [zde](https://github.com/Jirka-Mayer/NPRG030-062/blob/master/prg/2020-12-07/teapot.obj)
+- Lore [zde](https://en.wikipedia.org/wiki/Utah_teapot)
 
 Soubor `.obj` obsahuje dva druhy řádků textu:
 
