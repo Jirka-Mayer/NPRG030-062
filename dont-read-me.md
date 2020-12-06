@@ -327,12 +327,14 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
     - trije jako množina slov .add(w) .has(w)
 - procházení trije pro výpis setřízené posloupnosti slov
     - radix sort = rekurzivní bucket sort - větve uzlu jsou jako buckety
+- Dcv - vypište všechny celočíselné intervaly mezi 0 a N
 
 
 **Programování**
 
 - nová šablona na pygame
 - pálení papíru (v pygame na Surface)
+- Dcv - Aladin
 - RLE dekomprese
 
 
@@ -340,6 +342,7 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
 
 - Do příště: radši menší příklady a dávat na ně víc času, aby to lidi stihli programovat
 
+- hledání nejkratší cesty (prohledávání + heuristiky - A*)
 - RLE dekomprese
 - pálení papíru (kasiopea), naivně, pomocí fronty
 - testování - jak ověřit funkčnost programu? Testovací data, automatické testy
