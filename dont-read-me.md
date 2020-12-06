@@ -321,14 +321,19 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
 **Algoritmizace**
 
 - desáté cvičení
-- ...
+- catalanova čísla - co bylo špatně
+- prohlédnout si spojové seznamy (2020-11-16/02-queue.py)
+- popsat trije
+    - trije jako množina slov .add(w) .has(w)
+- procházení trije pro výpis setřízené posloupnosti slov
+    - radix sort = rekurzivní bucket sort - větve uzlu jsou jako buckety
 
 
 **Programování**
 
-- RLE dekomprese
 - nová šablona na pygame
 - pálení papíru (v pygame na Surface)
+- RLE dekomprese
 
 
 ## Nápady do budoucna
