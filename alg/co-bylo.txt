@@ -1,3 +1,18 @@
+2020-12-07
+
+    * Oprava chyby v Catalanových číslech z minula
+    
+    * Oživení spojových seznamů
+
+    * Představení trije = písmenkový strom
+
+    * Vztah trije a radix sortu
+
+    * Potenciální hazardy rekurze
+
+    * Dcv - všechny diskrétní intervaly mezi 0 a N
+
+
 2020-11-30
 
     * Počet zápisů čísla jako součtu posloupnosti přirozených čísel

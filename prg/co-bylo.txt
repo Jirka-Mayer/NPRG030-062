@@ -1,3 +1,13 @@
+2020-12-07
+
+    * Nová šablona pro Pygame
+        - použití dědičnosti pro schování boilerplate kódu
+
+    * Dcv - Aladin
+
+    * RLE dekomprese (feep.pgm.rle -> feep.pgm)
+
+
 2020-11-30
 
     * Organizace repozitáře

@@ -1,5 +1,5 @@
 """
-Přepíšeme tuhle šablonu, aby se s ní líp pracovalo.
+Šablona pro rychlý start v pygame - implementuj třídu Game
 """
 
 import sys
@@ -8,41 +8,76 @@ import random
 import pygame
 from pygame import Rect, Vector2, Color
 
+
 def fix_path(p):
     return os.path.dirname(os.path.realpath(__file__)) + "/" + p
 
+
 pygame.init()
 
-width = 960
-height = 720
 
-screen = pygame.display.set_mode((width, height))
-clock = pygame.time.Clock()
+class PyGame:
+    def __init__(self, screen_width, screen_height):
+        self.screen_size = Vector2(screen_width, screen_height)
+        self.target_fps = 30
+        
+        self.screen = pygame.display.set_mode((
+            int(self.screen_size.x),
+            int(self.screen_size.y)
+        ))
+        self.clock = pygame.time.Clock()
 
-# definuj stav hry (INITIALIZE)
-# ...
+    def run(self):
+        self.intialize()
 
-while True:
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            sys.exit()
+        while True:
+            for event in pygame.event.get():
+                if event.type == pygame.QUIT:
+                    return
 
-    # aktualizuj stav hry (UPDATE)
-    # ...
+            self.update()
+            self.draw()
+            
+            pygame.display.flip()
+            self.clock.tick(self.target_fps)
 
-    # vykresli stav hry (DRAW)
-    screen.fill(pygame.Color(0, 0, 0))
-    screen.fill(
-        Color(0, 255, 0),
-        Rect(100, 50, 200, 10)
-    )
-    pygame.draw.polygon(
-        screen,
-        Color(255, 0, 0),
-        [Vector2(random.randint(100, 400), random.randint(100, 400)) for _ in range(10)],
-        width=3
-    )
-    # ...
+    def intialize(self):
+        pass
+
+    def update(self):
+        pass
+
+    def draw(self):
+        pass
+
+
+class Game(PyGame):
+    def __init__(self):
+        PyGame.__init__(self, 960, 720)
     
-    pygame.display.flip()
-    clock.tick(30)
+    def intialize(self):
+        pass
+
+    def update(self):
+        pass
+
+    def draw(self):
+        self.screen.fill(pygame.Color(0, 0, 0))
+        self.screen.fill(
+            Color(0, 255, 0),
+            Rect(100, 50, 200, 10)
+        )
+        pygame.draw.polygon(
+            self.screen,
+            Color(255, 0, 0),
+            [Vector2(random.randint(100, 400), random.randint(100, 400)) for _ in range(10)],
+            width=3
+        )
+
+
+def main():
+    game = Game()
+    game.run()
+
+
+main()

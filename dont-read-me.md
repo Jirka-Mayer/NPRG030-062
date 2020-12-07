@@ -316,7 +316,7 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
 - dcv - P1M: Třída na obdélníky
 
 
-## Plán na 2020-12-6
+## Plán na 2020-12-07
 
 **Algoritmizace**
 
@@ -327,15 +327,28 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
     - trije jako množina slov .add(w) .has(w)
 - procházení trije pro výpis setřízené posloupnosti slov
     - radix sort = rekurzivní bucket sort - větve uzlu jsou jako buckety
+- DANGERS OF RECURSION
 - Dcv - vypište všechny celočíselné intervaly mezi 0 a N
 
 
 **Programování**
 
 - nová šablona na pygame
-- pálení papíru (v pygame na Surface)
 - Dcv - Aladin
 - RLE dekomprese
+
+
+## Plán na 2020-12-14
+
+**Algoritmizace**
+
+- jedenácté cvičení (ze třinácti)
+- zápočtový test bude asi 4.1 hádám ? (poslední, třináctá hodina)
+
+
+**Programování**
+
+- pálení papíru (v pygame na Surface)
 
 
 ## Nápady do budoucna
@@ -343,11 +356,9 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
 - Do příště: radši menší příklady a dávat na ně víc času, aby to lidi stihli programovat
 
 - hledání nejkratší cesty (prohledávání + heuristiky - A*)
-- RLE dekomprese
 - pálení papíru (kasiopea), naivně, pomocí fronty
 - testování - jak ověřit funkčnost programu? Testovací data, automatické testy
 - matice - implementovat třídu Matrix
-- trije a radix sort
 - flood fill pomocí fronty
     - nejprve nastavíme jeden pixel
 - parsovat a vyhodnocovat prefixovou notaci - výrazy: `*(+(1,5),8)`
