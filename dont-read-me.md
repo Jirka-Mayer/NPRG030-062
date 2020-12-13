@@ -344,11 +344,29 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
 
 - jedenácté cvičení (ze třinácti)
 - zápočtový test bude asi 4.1 hádám ? (poslední, třináctá hodina)
+- kdyby někdo potřeboval zápočet z alg. tak se ověte hned, jinak je zadám někdy o vánocích
+- generování bludiště
+- obarvit každé políčko podle jeho vzdálenosti od startu
+    - nejprve napočítat vzdálenosti do extra pole
+    - algoritmus vlny + backtracking -> hledání cesty pozpátku
+- hledání slepých konců
+- odstranění slepých konců
+- hledání cesty skrz
+- hledání s heuristikou
 
 
 **Programování**
 
-- pálení papíru (v pygame na Surface)
+- dcv - cesta králem po šachovnici (délka)
+
+
+## Plán na 2020-12-21
+
+**Algoritmizace**
+
+**Programování**
+
+- dcv - cesta králem po šachovnici (cesta)
 
 
 ## Nápady do budoucna
