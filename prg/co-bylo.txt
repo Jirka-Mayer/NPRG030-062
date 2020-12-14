@@ -1,3 +1,10 @@
+2020-12-17
+
+    * Celý obsah bych shrnul pod algoritmizaci
+
+    * Dcv - délka cesty králem po šachovnici
+
+
 2020-12-07
 
     * Nová šablona pro Pygame

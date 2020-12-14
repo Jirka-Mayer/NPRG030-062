@@ -118,14 +118,104 @@ class Maze:
 class MazeGenerator:
     def __init__(self, maze):
         self.maze = maze
+        self.generator_instance = None
 
-    def generate(self):
-        self.maze.cells[0][0].color = "red"
-        self.maze.cells[-1][-1].color = "green"
+    def start_generation(self):
+        self.generator_instance = self.generate()
+
+    def step_generation(self):
+        if self.generator_instance is None:
+            return
+        
+        try:
+            self.generator_instance.__next__()
+        except StopIteration:
+            self.generator_instance = None
+
+    def clear_maze(self):
+        # self.maze.cells[0][0].color = "red"
+        # self.maze.cells[-1][-1].color = "green"
         for x in range(self.maze.width):
             for y in range(self.maze.height):
-                self.maze.cells[x][y].right_wall = random.choice([True, False])
-                self.maze.cells[x][y].bottom_wall = random.choice([True, False])
+                self.maze.cells[x][y].right_wall = True
+                self.maze.cells[x][y].bottom_wall = True
+                self.maze.cells[x][y].color = None
+
+    def generate(self):
+        self.clear_maze()
+
+        open_vertices = []
+        closed_vertices = [[None for _ in range(self.maze.height)] for _ in range(self.maze.width)]
+
+        # pomocné funkce
+        def cell_exists(x, y):
+            if x < 0 or x >= self.maze.width: return False
+            if y < 0 or y >= self.maze.height: return False
+            return True
+
+        def cell_closed(x, y):
+            return closed_vertices[x][y] is not None
+
+        def cell_openned(x, y):
+            return (x, y) in open_vertices
+
+        def close_vertex(x, y, parent):
+            closed_vertices[x][y] = parent
+
+            self.maze.cells[x][y].color = "blue"
+
+            # zbouráme zeď
+            if parent == "right":
+                self.maze.cells[x][y].right_wall = False
+            elif parent == "bottom":
+                self.maze.cells[x][y].bottom_wall = False
+            elif parent == "left" and x > 0: 
+                self.maze.cells[x - 1][y].right_wall = False
+            elif parent == "top" and y > 0:
+                self.maze.cells[x][y - 1].bottom_wall = False
+
+        def open_vertex(x, y):
+            if not cell_exists(x, y): return
+            if cell_closed(x, y): return
+            if cell_openned(x, y): return
+            open_vertices.append((x, y))
+            self.maze.cells[x][y].color = "green"
+
+        # počáteční stav
+        close_vertex(0, 0, "left")
+        open_vertex(1, 0)
+        open_vertex(0, 1)
+
+        while len(open_vertices) > 0:
+            yield None
+
+            # náhodný otevřený vrchol
+            i = random.randint(0, len(open_vertices) - 1)
+            v = open_vertices[i]
+            del open_vertices[i]
+            
+            # seznam uzavřených sousedů pro vybírání rodiče
+            closed_neighbours = []
+            if cell_exists(v[0], v[1] - 1) and cell_closed(v[0], v[1] - 1):
+                closed_neighbours.append("top")
+            if cell_exists(v[0], v[1] + 1) and cell_closed(v[0], v[1] + 1):
+                closed_neighbours.append("bottom")
+            if cell_exists(v[0] - 1, v[1]) and cell_closed(v[0] - 1, v[1]):
+                closed_neighbours.append("left")
+            if cell_exists(v[0] + 1, v[1]) and cell_closed(v[0] + 1, v[1]):
+                closed_neighbours.append("right")
+            
+            assert len(closed_neighbours) > 0, "No viable parent exists"
+
+            # zavřeme vybraný vrchol
+            picked_parent = random.choice(closed_neighbours)
+            close_vertex(v[0], v[1], picked_parent)
+
+            # otevřeme sousední vrcholy (pokud jsou volné)
+            open_vertex(v[0] + 1, v[1])
+            open_vertex(v[0] - 1, v[1])
+            open_vertex(v[0], v[1] + 1)
+            open_vertex(v[0], v[1] - 1)
 
 
 class Game(PyGame):
@@ -136,11 +226,14 @@ class Game(PyGame):
         self.generator = MazeGenerator(self.maze)
     
     def intialize(self):
-        self.generator.generate()
+        self.generator.start_generation()
 
     def update(self):
         if pygame.key.get_pressed()[pygame.K_SPACE]:
-            self.generator.generate()
+            self.generator.start_generation()
+
+        for _ in range(2):
+            self.generator.step_generation()
 
     def draw(self):
         self.screen.fill("#444444")

@@ -1,3 +1,13 @@
+2020-12-14
+
+    * generování bludiště pomocí otevřených a uzavřených vrcholů
+        - hodně podobné prohledávání do šířky / do hloubky
+        - více na http://pruvodce.ucw.cz/static/pruvodce.pdf
+            - kapitola 5 - reprezentace + prohl. do šířky
+
+    * Dcv - počet neklesajících posloupností
+
+
 2020-12-07
 
     * Oprava chyby v Catalanových číslech z minula
