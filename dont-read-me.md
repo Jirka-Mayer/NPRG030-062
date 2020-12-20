@@ -364,6 +364,14 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
 
 **Algoritmizace**
 
+- dcv - průsečík úseček
+- dead-end-remover - ne nutně perfektní
+- obarvit každé políčko podle jeho vzdálenosti od startu
+    - nejprve napočítat vzdálenosti do extra pole
+    - algoritmus vlny + backtracking -> hledání cesty pozpátku
+- http://www.pythonchallenge.com/
+
+
 **Programování**
 
 - dcv - cesta králem po šachovnici (cesta)
