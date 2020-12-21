@@ -1,3 +1,15 @@
+2020-12-21
+
+    * Odstraňování slepých konců v bludišti
+    
+    * Bavení políček podle jejich vzdálenosti od počátku
+        - vysvětlení backtrackingu
+
+    * Řešili jsme http://www.pythonchallenge.com/
+
+    * Dcv - průsečík úseček
+
+
 2020-12-14
 
     * generování bludiště pomocí otevřených a uzavřených vrcholů

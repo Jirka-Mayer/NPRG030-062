@@ -229,26 +229,119 @@ class DeadEndRemover:
         self.maze = maze
 
     def remove_dead_ends(self):
-        # už jde self.maze[x, y]
-        pass
+        for x in range(1, self.maze.width - 1):
+            for y in range(1, self.maze.height - 1):
+                self.check_cell(x, y)
+
+    def check_cell(self, x, y):
+        wall_count = sum([
+            int(self.has_wall(x, y, i))
+            for i in range(4)
+        ])
+
+        if wall_count < 3:
+            return
+
+        if random.random() > 0.33:
+            return
+
+        indices = list(range(4))
+        random.shuffle(indices)
+        for i in indices:
+            if self.has_wall(x, y, i):
+                self.break_wall(x, y, i)
+                break
+
+    def has_wall(self, x, y, i):
+        if i == 0: return self.maze[x, y].right_wall
+        if i == 1: return self.maze[x, y].bottom_wall
+        if i == 2: return self.maze[x - 1, y].right_wall
+        if i == 3: return self.maze[x, y - 1].bottom_wall
+        raise Exception("Invalid value of 'i'.")
+
+    def break_wall(self, x, y, i):
+        if i == 0: self.maze[x, y].right_wall = False
+        elif i == 1: self.maze[x, y].bottom_wall = False
+        elif i == 2: self.maze[x - 1, y].right_wall = False
+        elif i == 3: self.maze[x, y - 1].bottom_wall = False
+        else: raise Exception("Invalid value of 'i'.")
+
+class DistanceComputer:
+    def __init__(self, maze):
+        self.maze = maze
+
+        self.distances = None # 2D array of ints/Nones
+        self.open_vertices = None # [(x, y, distance), ...]
+
+    def compute_distance(self):
+        self.distances = [[None for _ in range(self.maze.height)] for _ in range(self.maze.width)]
+        self.open_vertices = [(0, 0, 0)] # [(x, y, distance), ...]
+
+        while len(self.open_vertices) > 0:
+            x, y, distance = self.open_vertices.pop(0)
+
+            for nx, ny in self.get_unseen_neighbour_coords(x, y):
+                self.open_vertices.append((nx, ny, distance + 1))
+
+            self.distances[x][y] = distance
+
+        self.color_maze()
+
+        return self.distances
+
+    def color_maze(self):
+        for x in range(self.maze.width):
+            for y in range(self.maze.height):
+                distance = self.distances[x][y]
+                intensity = int((distance / 70) * 255)
+                self.maze[x, y].color = pygame.Color(intensity, intensity, intensity)
+
+    def get_unseen_neighbour_coords(self, x, y):
+        for nx, ny in self.get_neighbour_coords(x, y):
+            if self.distances[nx][ny] is not None:
+                continue
+            
+            if self.is_open(nx, ny):
+                continue
+
+            yield (nx, ny)
+
+    def is_open(self, x, y):
+        for v in self.open_vertices:
+            if v[0] == x and v[1] == y:
+                return True
+        return False
+
+    def get_neighbour_coords(self, x, y):
+        if x < self.maze.width - 1 and not self.maze[x, y].right_wall:
+            yield (x + 1, y)
+        if y < self.maze.height - 1 and not self.maze[x, y].bottom_wall:
+            yield (x, y + 1)
+        if x > 0 and not self.maze[x - 1, y].right_wall:
+            yield (x - 1, y)
+        if y > 0 and not self.maze[x, y - 1].bottom_wall:
+            yield (x, y - 1)
 
 
 class Game(PyGame):
     def __init__(self):
         PyGame.__init__(self, 960, 720)
         
-        self.maze = Maze(30  , 22)
+        self.maze = Maze(30, 22)
         self.generator = MazeGenerator(self.maze)
         self.dead_end_remover = DeadEndRemover(self.maze)
+        self.distance_computer = DistanceComputer(self.maze)
     
     def intialize(self):
         self.generator.generate_at_once()
         self.dead_end_remover.remove_dead_ends()
+        self.distance_computer.compute_distance()
 
     def update(self):
         if pygame.key.get_pressed()[pygame.K_SPACE]:
             self.generator.generate_at_once()
             self.dead_end_remover.remove_dead_ends()
+            self.distance_computer.compute_distance()
 
     def draw(self):
         self.screen.fill("#444444")

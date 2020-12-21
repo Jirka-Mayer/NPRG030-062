@@ -364,17 +364,19 @@ https://ksvi.mff.cuni.cz/~kryl/Avyuka/200910/infCv46.html
 
 **Algoritmizace**
 
-- dcv - průsečík úseček
+- dvanácté cvičení (ze třinácti)
+- domácáky po dedlajnu pro lidi co maj < 80 bodů za 8 bodů
 - dead-end-remover - ne nutně perfektní
 - obarvit každé políčko podle jeho vzdálenosti od startu
     - nejprve napočítat vzdálenosti do extra pole
     - algoritmus vlny + backtracking -> hledání cesty pozpátku
-- http://www.pythonchallenge.com/
+- dcv - průsečík úseček
 
 
 **Programování**
 
 - dcv - cesta králem po šachovnici (cesta)
+- http://www.pythonchallenge.com/
 
 
 ## Nápady do budoucna
